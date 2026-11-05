@@ -1,0 +1,6 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "A simple age calculator web application that calculates your age based on your date of birth.",
+  "main": "index.html"
+}
