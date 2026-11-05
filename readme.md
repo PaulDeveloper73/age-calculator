@@ -18,6 +18,7 @@ It intelligently identifies whether a birthday:
 - Falls in the following calendar year.
 
 It also calculates the user's current age and provides a readable birthday status message.
+###Project Preview link is here: https://pauldeveloper73.github.io/age-calculator/
 
 ## ✨ Key Features
 
