@@ -20,7 +20,17 @@ const initApp = () => {
 
   const calculationDate = document.querySelector('#calculation-date')
   const status = document.querySelector('#status')
-
+  status.classList.add('hidden')
+  status.textContent = ''
+  resetAgeBtn.addEventListener('click', () => {
+    ageYears.textContent = '__'
+    ageMonths.textContent = '__'
+    ageDays.textContent = '__'
+    ageTotalDays.textContent = '__'
+    status.classList.add('hidden')
+    status.textContent = ''
+    ageCalculatorForm.reset()
+  })
   ageCalculatorForm.addEventListener('submit', e => {
     e.preventDefault()
     console.log('Form submitted')
